@@ -15,7 +15,7 @@
 
       <i
         class="code-toggler feather icon-code cursor-pointer"
-        :aria-expanded="!code_visible ? 'true' : 'false'"
+        :aria-expanded="!code_visible ? 'true' : 'false' "
         :aria-controls="parentID"
         @click="code_visible = !code_visible"
       />
